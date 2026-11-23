@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "951171142211",
+    "project_id": "campus-carpool-ccca6",
+    "storage_bucket": "campus-carpool-ccca6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:951171142211:android:bb60d2d150517643c43af6",
+        "android_client_info": {
+          "package_name": "com.example.flutter_campuscarpool"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBH2xM3v9UdLmtSEnGC8HnXEnkIYlclHeQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
