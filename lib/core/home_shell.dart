@@ -1,7 +1,7 @@
-
 import 'package:flutter/material.dart';
 
 import '../features/home/home_page.dart';
+import '../features/search_ride/search_ride_page.dart';
 import '../features/offer_ride/offer_ride_page.dart';
 import '../features/offer_ride/my_rides_page.dart';
 import '../features/profile/profil_page.dart';
@@ -18,6 +18,7 @@ class _HomeShellState extends State<HomeShell> {
 
   final List<String> _titles = [
     'Beranda',
+    'Cari Tumpangan',
     'Tawarkan Tumpangan',
     'Perjalanan Saya',
     'Profil',
@@ -25,6 +26,7 @@ class _HomeShellState extends State<HomeShell> {
 
   late final List<Widget> _pages = [
     HomePage(),
+    const SearchRidePage(),
     const OfferRidePage(),
     MyRidesPage(),
     const ProfilPage(),
@@ -62,6 +64,12 @@ class _HomeShellState extends State<HomeShell> {
             icon: Icon(Icons.home_outlined),
             selectedIcon: Icon(Icons.home),
             label: 'Beranda',
+          ),
+
+          NavigationDestination(
+            icon: Icon(Icons.search),
+            selectedIcon: Icon(Icons.search_rounded),
+            label: 'Cari',
           ),
 
           NavigationDestination(
